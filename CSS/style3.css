@@ -8,6 +8,8 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f4f4f4;
+    background-color: darkseagreen;
+    text-align: left;
 }
 
 header {
@@ -41,12 +43,16 @@ main {
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center; 
+    box-shadow: 15px 10px 10px green;
+    text-align: left; 
+    background-color: rgb(55, 196, 55);
+    border-radius: 20px;
+    margin-top: 20px;
+    
 }
 
 details {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 summary {
@@ -57,4 +63,21 @@ summary {
 details p {
     margin-top: 10px;
     font-size: 20px;
+}
+
+
+
+
+footer{
+    background-color: rgb(42, 156, 42);
+    padding: 15px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#enviar{
+    color: black;
+    border-radius: 20px;
+    padding: 15px;
 }
