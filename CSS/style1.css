@@ -52,6 +52,16 @@ nav li{
 list-style: none;
 display: inline-block;
 padding-right: 10px;
+background-color:rgb(19, 220, 19) ;
+
+}
+
+nav{
+
+    border: solid;
+    background-color: rgb(19, 220, 19);
+    padding: 15px;
+
 
 }
 
