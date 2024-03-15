@@ -2,11 +2,14 @@
     box-sizing: border-box;
     margin: 0 auto;
     text-align: center;
+    
+    color: white;
 }
 
 
 body{
     width: 80%;
+    background-color: darkseagreen;
 }
 
 header{
@@ -99,3 +102,8 @@ footer{
    
 }
 
+#enviar{
+    color: black;
+    border-radius: 20px;
+    padding: 15px;
+}
