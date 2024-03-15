@@ -6,7 +6,7 @@ background-color: darkseagreen;
 
 body{
 
-background-color: mediumseagreen;
+text-align: center;
 
 width: 80%;
 
@@ -26,6 +26,45 @@ main article .container img {
 
 width: 150px;
 height: 150px;
+
+
+}
+
+header img{
+
+
+    display:inline-block;
+
+
+}
+
+header h1{
+
+
+
+display: inline;
+
+}
+
+nav li{
+
+
+list-style: none;
+display: inline-block;
+padding-right: 10px;
+
+}
+
+hr{
+
+height: 5px;
+background-color: mediumseagreen;
+
+}
+
+main article:nth-child(3) div figure {
+
+display: inline-block;
 
 
 }
