@@ -11,15 +11,15 @@
 
     <header>
         <h1>Contactanos</h1>
+        <img src="./img/Informacion Refugio/huella.png" alt="">
     </header>
 
     <nav>
 
         <ul>
-            <li><a href="../Index/index.html">INICIO</a></li>
-            <li><a href="../Index/contacto.html">CONTACTANOS</a></li>
-            <li><a href="../Index/preguntas.html">PREGUNTAS FRECUENTES</a></li>
-            <li><a href="../Index/Donaciones.html">DONACIONES</a></li>
+            <li><a href="./index.html" target="_blank">INICIO</a></li>
+            <li><a href="#" target="_blank">CONTACTANOS</a></li>
+            <li><a href="../preguntas.html" target="_blank">PREGUNTAS FRECUENTES</a></li>
         </ul>
 
     </nav>
@@ -30,46 +30,65 @@
 
         <form action="#" method="get">
 
-            <label for="nombre">Nombre: <input type="text" name="Nombre" id="nombre"></label>
+            <article>
+                <label for="nombre">Nombre: <input type="text" name="Nombre" id="nombre"></label>
+            </article>
+                <br>
+            <article>
+                <label for="apellidos">Apellidos: <input type="text" name="apellidos" id="apellidos"></label>
+            </article>
 
-            <br>
+                <br>
+            <article>
+                <label for="email">Email: <input type="email" name="email" id="email"></label>
 
-            <label for="apellidos">Apellidos: <input type="text" name="apellidos" id="apellidos"></label>
+            </article>
 
-            <br>
+                <br>
+            <article>
+                <label for="telefono">Telefono de Contacto: <input type="number" name="telefono" id="telefono"></label>
+            </article>
 
-            <label for="email">Email: <input type="email" name="email" id="email"></label>
+                <br>
+            <article>
+                <label for="provincia">Provincia: <input type="text" name="provincia" id="provincia"></label>
 
-            <br>
+            </article>
 
-            <label for="telefono">Telefono de Contacto: <input type="number" name="telefono" id="telefono"></label>
+                <br>
+            <article>
+                <label for="localidad">Localidad: <input type="text" name="localidad" id="localidad"></label>
 
-            <br>
+            </article>
 
-            <label for="provincia">Provincia: <input type="text" name="provincia" id="provincia"></label>
+            <article>
+                <h4  id="mens">Mensaje</h4>
 
-            <br>
+                <label for="asunto">Asunto: <input type="text" name="asunto" id="asunto"></label>
 
-            <label for="localidad">Localidad: <input type="text" name="localidad" id="localidad"></label>
+            </article>
 
-            <h4>Mensaje</h4>
+                <br>
+            <article>
+                <label for="Mensaje">Mensaje: </label> <br>
+                <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
 
-            <label for="asunto">Asunto: <input type="text" name="asunto" id="asunto"></label>
+            </article>
 
-            <br>
+                <br>
 
-            <label for="Mensaje">Mensaje: </label> <br>
-            <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
-
-            <br>
-
-            <input type="submit" name="enviar" id="enviar" value="ENVIAR">
+                <input type="submit" name="enviar" id="enviar" value="ENVIAR">
 
 
+
+            </article>
+
+            
         </form>
 
 
         <div class="map">
+            <p>Nos puedes encontrar aqui <img src="./img/Informacion Refugio/flecha.png"></p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6357.383530027416!2d-3.6200110235826135!3d37.183795545981695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcf6a6bfb325%3A0xe85a4066253543bf!2sIES%20Hermenegildo%20Lanz!5e0!3m2!1ses!2ses!4v1710527155322!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
